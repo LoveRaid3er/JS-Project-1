@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <title>Welcome-HomePage</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(6, 69, 94);">
+        <div class="container-sm">
+          <a class="navbar-brand text-light" href="#javascript.void(0)"><b>Admin Name:</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#javascript.void(0)">M Junaid Fraz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+             
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"></a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- main section -->
+    <main>
+        <div class="py-5">
+            <div class="container">
+                <div class="row mb-3 mb-md-5">
+                    <div class="col">
+                        <h2 class="text-center">Welcome Admin... Its Your Home Page</h2>
+                        <div class="border-bottom mt-4 border-secondary"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-3 mb-md-0" style="height: 97.33px;">
+                        <h4 class="text-center">Input</h4>
+                        <div class="border border-dark rounded-3 p-4 d-flex align-items-center" style="height: 97.33px;">
+                            <div class="input-group">
+                              <input type="text" class="form-control corm-control-lg bg-transparent" id="input" placeholder="Type Your Text Here"> &nbsp;
+                              <button class="btn btn-outline-secondary" id="clr">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h4 class="text-center">Cities</h4>
+                        <div class="border border-dark rounded-3 p-4" style="background-color: rgb(6, 69, 94);">
+                            <div id="original" class="text-center text-white">
+                                <p>
+                                    Lahore,
+                                    Islamabad,
+                                    Multan,
+                                    Karachi,
+                                    Peshawar,
+                                    Quetta
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-12 col-md-6 mb-3 mb-md-0">
+                    <h4 class="text-center">Buttons</h4>
+                       <div class="d-flex justify-content-center border border-dark rounded py-4">
+                           <div class="container d-flex gap-2 px-4">
+                            
+                            <button class="btn btn-primary col-4" id="btn1" style="background-color: rgb(6, 69, 94);" onclick="showAllCities()" type="button">Show All Cities</button>
+
+                            <button class="btn btn-primary col-4" id="btn2" onclick="addYourCity()" type="button" style="background-color: rgb(6, 69, 94);">Add Your City In List</button>                          
+                           </div>
+                       </div>
+                    </div>
+                    <div class="col-12 col-md-6 mb-3 mb-md-0">
+                        <h4 class="text-center">Result</h4>
+                        <div class="d-flex justify-content-center align-items-center border border-dark rounded py-10" style="height: 280px;">
+                            <span id="result"></span>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                        <button class="btn btn-outline-secondary mt-3" id="ClearResult">Clear Result</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+      <div class="row">
+        <div class="col text-center py-4" style="background-color: rgb(6, 69, 94); color: white;">
+          <p>Website Designed by <a href="https://www.instagram.com/muhammad.junaid.90/" style="color: white; text-decoration: none;"><b>LoveRaid3er</b></a></p>
+        </div>
+
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src=""></script>
+    <!-- Custom JS -->
+    <script src="JS/homepage.js"></script>
+</body>
+</html>
